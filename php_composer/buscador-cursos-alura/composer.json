@@ -1,0 +1,21 @@
+{
+    "name": "marcelojsil/buscador-alura",
+    "description": "Projeto que busca os cursos da Alura.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Marcelojsil\\BuscadorAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcelojsil",
+            "email": "dev.marcelojs@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^7.2",
+        "symfony/css-selector": "^7.2"
+    }
+}
