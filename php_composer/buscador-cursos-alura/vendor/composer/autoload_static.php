@@ -12,6 +12,7 @@ class ComposerStaticInite14c196822d59273a8ff173fb84b5731
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '16a6f058eb5adbfa605f4249284e0b87' => __DIR__ . '/../..' . '/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -30,13 +31,16 @@ class ComposerStaticInite14c196822d59273a8ff173fb84b5731
         'M' => 
         array (
             'Masterminds\\' => 12,
-            'Marcelojsil\\BuscadorAlura\\' => 26,
         ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
         ),
     );
 
@@ -70,10 +74,6 @@ class ComposerStaticInite14c196822d59273a8ff173fb84b5731
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
-        'Marcelojsil\\BuscadorAlura\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -86,10 +86,16 @@ class ComposerStaticInite14c196822d59273a8ff173fb84b5731
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Alura\\BuscadorDeCursos\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Teste' => __DIR__ . '/../..' . '/teste.php',
+        'Teste2' => __DIR__ . '/../..' . '/teste.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
